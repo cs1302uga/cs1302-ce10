@@ -8,7 +8,7 @@ It also revists how to commit and view changes to a local Git repository.
 
 ## Prerequisite Knowledge
 
-* Inheritance and polymorphism in Java.
+* Inheritance and interfaces in Java.
 * UML Class Diagrams
 
 ## Questions
