@@ -1,5 +1,7 @@
 package cs1302.ce10;
 
+import java.util.Date;
+
 /**
  * Represents a Homework assignment in the cs1302 mock eLC
  * application.
@@ -34,7 +36,7 @@ public class Homework {
 	nullCheck("Homework", course, dueDate);
 
 	if(points < 0) {
-	    throw new IllegalArgument("Homework Constructor: " +
+	    throw new IllegalArgumentException("Homework Constructor: " +
 				      "Invalid homework point total");
 	} // if
 	this.isBonus = bonus;
@@ -55,7 +57,7 @@ public class Homework {
 	    throw new IllegalArgumentException("Homework Constructor: " +
 				      "Invalid homework point total");
 	} // if
-	this.points = points;
+	this.totalPoints = points;
     } // setPoints
 
     /**
@@ -103,7 +105,7 @@ public class Homework {
      * @return the points associated with this {@code Homework} object.
      */
     public int getPoints() {
-	return points;
+	return totalPoints;
     } // getPoints
 
     /**
