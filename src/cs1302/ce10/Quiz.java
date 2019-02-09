@@ -51,7 +51,7 @@ public class Quiz {
     /**
      * Modifies the point total associated with this quiz.
      *
-     * @param points the new point value.
+     * @param pointValue the new point value.
      * @throws IllegalArgumentException if {@code pointValue} 
      * is negative.
      */
