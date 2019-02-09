@@ -45,7 +45,11 @@ public class Student {
      *         {@code (id < 0 || id > 999_999_999)}.
      */
     public void setId(int id) {
-        checkId(id);
+        if (id < 0) {
+            throw new IllegalArgumentException("id cannot be negative");
+        } else if (id > 999_999_999) {
+            throw new IllegalArgumentException("id cannot exceed nine digits");
+        } // if
         this.id = id;
     } // setId
 
@@ -66,7 +70,11 @@ public class Student {
      * @throws IllegalArgumentException if {@code name} is empty.
      */
     public void setName(String name) {
-        checkName(name);
+        if (name == null) {
+            throw new NullPointerException("name cannot be null");
+        } else if (name.isEmpty()) {
+            throw new IllegalArgumentException("name cannot be empty string");
+        } // if
         this.name = name;
     } // setName
 
@@ -123,35 +131,5 @@ public class Student {
         } // if
     } // checkGPA
 
-    /**
-     * Checks the specified {@code name} to ensure it's neither {@code null} nor an empty string.
-     *
-     * @param name the specified name
-     * @throws NullPointerException if {@code name} is {@code null}.
-     * @throws IllegalArgumentException if {@code name} is empty.
-     */
-    private void checkName(String name) {
-        if (name == null) {
-            throw new NullPointerException("name cannot be null");
-        } else if (name.isEmpty()) {
-            throw new IllegalArgumentException("name cannot be empty string");
-        } // if
-    } // checkName
-
-    /** 
-     * Checks the specified {@code id} to ensure it's not out of bounds.
-     * 
-     * @param id the specified ID.
-     * @throws IllegalArgumentException if {@code id} is out of bounds 
-     *         {@code (id < 0 || id > 999_999_999)}.
-     */
-    private void checkId(int id) {
-        if (id < 0) {
-            throw new IllegalArgumentException("id cannot be negative");
-        } else if (id > 999_999_999) {
-            throw new IllegalArgumentException("id cannot exceed nine digits");
-        } // if
-    } // checkId
-    
 } // Student
 
