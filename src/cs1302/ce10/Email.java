@@ -6,8 +6,7 @@ import java.util.Date;
  *  eLC application.
  * 
  *  @author Brad Barnes
- *  @date Feb 9 2019
- *  @version 1.0
+ *  @version 1.0; Feb 9 2019
  */
 public class Email {
     /** Email address of the recipient */
