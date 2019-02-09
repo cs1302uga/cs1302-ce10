@@ -49,7 +49,7 @@ command depends on your present working directory), then please note that contex
    |-----------|------------|-----|------------|------------|
 
    The "Java Type" column should list the outermost type in the file (e.g., class, interface, enum, etc). 
-   The "Depends On" column should list any Java types in the `cs1302.ce11` package that the file
+   The "Depends On" column should list any Java types in the `cs1302.ce10` package that the file
    is dependent upon. To determine the "Line Count", you may use the `wc` command. 
 
 1. In your notes, draw a complete, proper UML diagram for all of the code contained in the
@@ -71,7 +71,7 @@ command depends on your present working directory), then please note that contex
 
 1. Generate the API documentation website for all of the code in the `cs1302` package
    into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
-   Host the documentation on Nike using `cs1302-ce11-doc` as the name for your symbolic link.
+   Host the documentation on Nike using `cs1302-ce10-doc` as the name for your symbolic link.
    What is the URL of your website?
    
 1. Code __refactoring__ is the process of restructuring existing computer code without changing 
