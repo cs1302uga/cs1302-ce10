@@ -74,7 +74,7 @@ command depends on your present working directory), then please note that contex
    Host the documentation on Nike using `cs1302-ce10-doc` as the name for your symbolic link.
    What is the URL of your website?
    
-1. Code __refactoring__ is the process of restructuring existing computer code without changing 
+1. **[TRICKY]** Code __refactoring__ is the process of restructuring existing computer code without changing 
    its external behavior. As you likely noticed in your UML diagram, there is a lot of redundancy
    among the classes in the starter code. Let's attempt to reduce that redundancy. In your notes, 
    draw a **new** UML diagram that reduces most of that redundancy. Here are some things you can
