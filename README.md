@@ -150,6 +150,9 @@ command depends on your present working directory), then please note that contex
    [![DJ Plattypuss Platyhelminth](http://www.kittenwar.com/c_images/2006/08/05/82574.1.jpg)](http://www.kittenwar.com/kittens/82574/)
    [![Mocha](http://www.kittenwar.com/c_images/2006/10/30/102553.2.jpg)](http://www.kittenwar.com/kittens/102553/)
 
+   **LEGAL NOTICE:** We are not affiliated, associated, authorized, endorsed by, or in any way officially 
+   connected with http://www.kittenwar.com. We like [dogs](https://www.omfgdogs.com) too.
+   
 **NOT A CHECKPOINT**
 
 <hr/>
