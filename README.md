@@ -151,7 +151,8 @@ command depends on your present working directory), then please note that contex
    [![Mocha](http://www.kittenwar.com/c_images/2006/10/30/102553.2.jpg)](http://www.kittenwar.com/kittens/102553/)
 
    **LEGAL NOTICE:** We are not affiliated, associated, authorized, endorsed by, or in any way officially 
-   connected with http://www.kittenwar.com. We like [dogs](https://www.omfgdogs.com) too.
+   connected with http://www.kittenwar.com. **WARNING:** This site linked to in the next sentence may potentially 
+   trigger seizures for people with photosensitive epilepsy. We like [dogs](https://www.omfgdogs.com) too.
    
 **NOT A CHECKPOINT**
 
