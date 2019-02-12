@@ -143,7 +143,7 @@ command depends on your present working directory), then please note that contex
 
 **CHECKPOINT**
 
-1. On the Internet, a fierce battle rages on among the kittens of the proleteriat and plebians alike.
+1. On the Internet, a war rages on among the kittens of the proleteriat and plebians alike.
    Who will be victorious? You can help decide at http://www.kittenwar.com! Here are pictures of
    two kittens, DJ Plattypuss Platyhelminth and Mocha, engaging in an epic battle:
    
