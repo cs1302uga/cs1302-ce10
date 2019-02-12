@@ -144,7 +144,11 @@ command depends on your present working directory), then please note that contex
 **CHECKPOINT**
 
 1. On the Internet, a fierce battle rages on among the kittens of the proleteriat and plebians alike.
-   Who will be victorious? You can help decide at http://www.kittenwar.com.
+   Who will be victorious? You can help decide at http://www.kittenwar.com! Here are pictures of
+   two kittens, DJ Plattypuss Platyhelminth and Mocha, engaging in an epic stand off:
+   
+   [![DJ Plattypuss Platyhelminth](http://www.kittenwar.com/c_images/2006/08/05/82574.1.jpg)](http://www.kittenwar.com/kittens/82574/)
+   [![Mocha](http://www.kittenwar.com/c_images/2006/10/30/102553.2.jpg)](http://www.kittenwar.com/kittens/102553/)
 
 **NOT A CHECKPOINT**
 
