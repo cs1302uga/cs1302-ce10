@@ -34,7 +34,7 @@ public class Homework {
      */
     public Homework(int points, boolean bonus, Course course,
                     Date dueDate) {
-        nullCheck("Homework", course, dueDate);
+        checkNull("Homework", course, dueDate);
 
         if (points < 0) {
             throw new IllegalArgumentException("Homework Constructor: " +
@@ -77,7 +77,7 @@ public class Homework {
      * @throws NullPointerException if {@code due} is {@code null}.
      */
     public void setDueDate(Date due) {
-        nullCheck("setDueDate", due);
+        checkNull("setDueDate", due);
         this.dueDate = due;
     } // setDueDate
 
