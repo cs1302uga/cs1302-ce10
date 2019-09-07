@@ -32,7 +32,7 @@ public class Quiz {
      */
     public Quiz(int points, boolean bonus, Course course,
                 int limit) {
-        nullCheck("Quiz Constructor", course);
+        checkNull("Quiz Constructor", course);
 
         if (points < 0) {
             throw new IllegalArgumentException("Quiz Constructor: " +
@@ -135,7 +135,7 @@ public class Quiz {
      * @throws NullPointerException if any element of parameter
      * {@code o} is null.
      */
-    private void nullCheck(String method, Object ... o) {
+    private void checkNull(String method, Object ... o) {
         for (Object obj: o) {
             if (o == null) {
                 throw new NullPointerException(method +
