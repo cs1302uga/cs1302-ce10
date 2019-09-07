@@ -8,8 +8,16 @@ It also revists how to commit and view changes to a local Git repository.
 
 ## Prerequisite Knowledge
 
-* Inheritance and interfaces in Java.
-* UML Class Diagrams
+* CSCI 1302 [Inheritance Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/inheritance/inheritance.md)
+* CSCI 1302 [UML Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/uml/uml.md)
+
+## Course-Specific Learning Outcomes -- FINISH UPDATING
+
+* **LO3.b:** Create class, interface, method, and inline documentation that satisfies a 
+set of requirements.
+* **LO3.c:** Generate user-facing API documentation for a software solution.
+* **LO4.c:** (Partial) Design, create and use inheritance relationships in a software solution.
+* **LO4.d:** Utilize inheritance-based polymorphism in a software solution.
 
 ## Questions
 
@@ -40,17 +48,16 @@ command depends on your present working directory), then please note that contex
    $ find src
    ```
 
-   For each Java file under the `src` subdirectory, fill out a table similar to the following:
+   For each Java file under the `src` subdirectory, fill out a row in a table similar to the one below.
+   The "Java Type" column should list the outermost type in the file (e.g., class, interface, enum, etc). 
+   The "Depends On" column should list any Java types in the `cs1302.ce10` package that the file
+   is dependent upon. To determine the "Line Count", you may use the `wc` command. 
    
    | File Name | Java Type? | FQN | Depends On | Line Count |
    |-----------|------------|-----|------------|------------|
    |-----------|------------|-----|------------|------------|
    |-----------|------------|-----|------------|------------|
    |-----------|------------|-----|------------|------------|
-
-   The "Java Type" column should list the outermost type in the file (e.g., class, interface, enum, etc). 
-   The "Depends On" column should list any Java types in the `cs1302.ce10` package that the file
-   is dependent upon. To determine the "Line Count", you may use the `wc` command. 
 
 1. In your notes, draw a complete, proper UML diagram for all of the code contained in the
    starter code. **You might need to devote an entire page to this. We recommend using a pencil.** 
