@@ -10,11 +10,11 @@ package cs1302.ce10;
 public class Quiz {
     /** Time (in minutes) students have to complete the quiz */
     private int timeLimit;
-    /** Total point value for this quiz */
+    /** Total point value for this quiz. */
     private int points;
-    /** Indicates if this is a bonus quiz */
+    /** Indicates if this is a bonus quiz. */
     private boolean bonus;
-    /** Course where this quiz is assigned */
+    /** Course where this quiz is assigned. */
     private Course course;
 
     /**
@@ -26,41 +26,41 @@ public class Quiz {
      * @param course the course where this quiz is assigned.
      * @param limit the time (in minutes) students have to complete
      * this quiz.
-     * 
+     *
      * @throws IllegalArgumentException if {@code points} or {@code limit}
      * is negative or if {@code course} is {@code null}.
      */
     public Quiz(int points, boolean bonus, Course course,
-		    int limit) {
-	nullCheck("Quiz Constructor", course);
+                int limit) {
+        nullCheck("Quiz Constructor", course);
 
-	if(points < 0) {
-	    throw new IllegalArgumentException("Quiz Constructor: " +
-				      "Invalid quiz point total");
-	} // if
-	if(limit < 0) {
-	    throw new IllegalArgumentException("Quiz Constructor: " +
-					       "Invalid time limit");
-	} // if
-	this.bonus = bonus;
-	this.points = points;
-	this.course = course;
-	this.timeLimit = limit;
+        if(points < 0) {
+            throw new IllegalArgumentException("Quiz Constructor: " +
+                                               "Invalid quiz point total");
+        } // if
+        if(limit < 0) {
+            throw new IllegalArgumentException("Quiz Constructor: " +
+                                               "Invalid time limit");
+        } // if
+        this.bonus = bonus;
+        this.points = points;
+        this.course = course;
+        this.timeLimit = limit;
     } // Quiz
 
     /**
      * Modifies the point total associated with this quiz.
      *
      * @param pointValue the new point value.
-     * @throws IllegalArgumentException if {@code pointValue} 
+     * @throws IllegalArgumentException if {@code pointValue}
      * is negative.
      */
     public void setPoints(int pointValue) {
-	if(pointValue < 0) {
-	    throw new IllegalArgumentException("Quiz Constructor: " +
-				      "Invalid quiz point total");
-	} // if
-	this.points = pointValue;
+        if(pointValue < 0) {
+            throw new IllegalArgumentException("Quiz Constructor: " +
+                                               "Invalid quiz point total");
+        } // if
+        this.points = pointValue;
     } // setPoints
 
     /**
@@ -69,21 +69,21 @@ public class Quiz {
      * @param bonus the bonus indicator.
      */
     public void setBonus(boolean bonus) {
-	this.bonus = bonus;
+        this.bonus = bonus;
     } // setBonus
 
     /**
      * Updates the time limit for this quiz.
-     * 
+     *
      * @param limit the new time limit.
      * @throws IllegalArgumentException if {@code limit} is negative.
      */
     public void setTimeLimit(int limit) {
-	if(limit < 0) {
-	    throw new IllegalArgumentException("setTimeLimit: " +
-					       "Invalid time limit");
-	} // if
-	this.timeLimit = limit;
+        if(limit < 0) {
+            throw new IllegalArgumentException("setTimeLimit: " +
+                                               "Invalid time limit");
+        } // if
+        this.timeLimit = limit;
     } // setDueDate
 
     /**
@@ -92,9 +92,9 @@ public class Quiz {
      * @return the time limit for this {@code Quiz}.
      */
     public int getDueDate() {
-	return this.timeLimit;
+        return this.timeLimit;
     } // getDueDate
-    
+
     /**
      * Returns whether or not this quiz is bonus.
      *
@@ -102,16 +102,16 @@ public class Quiz {
      * otherwise.
      */
     public boolean isBonus() {
-	return bonus;
+        return bonus;
     } // isBonus
-    
+
     /**
      * Returns the number of points associated with this quiz.
      *
      * @return the points associated with this {@code Quiz} object.
      */
     public int getPoints() {
-	return points;
+        return points;
     } // getPoints
 
     /**
@@ -121,28 +121,27 @@ public class Quiz {
      * quiz.
      */
     public Course getCourse() {
-	return course;
+        return course;
     } // getCourse
-    
+
     /**
      * Throws a NullPointerException if any values in the
-     * varargs parameter, {@code o} are {@code null}. The 
-     * method performs no actions if all values in {@code o} 
+     * varargs parameter, {@code o} are {@code null}. The
+     * method performs no actions if all values in {@code o}
      * are non-null.
      *
      * @param method the name of the calling method.
      * @param o varargs parameter containing all objects to verify
-     * @throws NullPointerException if any element of parameter 
+     * @throws NullPointerException if any element of parameter
      * {@code o} is null.
      */
     private void nullCheck(String method, Object ... o) {
-	for(Object obj: o) {
-	    if(o == null) {
-		throw new NullPointerException(method +
-				       ": Null Argument Provided");
-	    } // if
-	} // for
+        for(Object obj: o) {
+            if(o == null) {
+                throw new NullPointerException(method +
+                                               ": Null Argument Provided");
+            } // if
+        } // for
     } // checkNull
 
 } // Quiz
-
