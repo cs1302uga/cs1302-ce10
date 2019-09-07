@@ -130,7 +130,7 @@ public class Homework {
      * @throws NullPointerException if any element of parameter
      * {@code o} is null.
      */
-    private void nullCheck(String method, Object ... o) {
+    private void checkNull(String method, Object ... o) {
         for (Object obj: o) {
             if (o == null) {
                 throw new NullPointerException(method +
