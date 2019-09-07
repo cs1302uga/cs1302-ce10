@@ -51,7 +51,9 @@ command depends on your present working directory), then please note that contex
    For each Java file under the `src` subdirectory, fill out a row in a table similar to the one below.
    The "Java Type" column should list the outermost type in the file (e.g., class, interface, enum, etc). 
    The "Depends On" column should list any Java types in the `cs1302.ce10` package that the file
-   is dependent upon. To determine the "Line Count", you may use the `wc` command. 
+   is dependent upon. You can tell a file has no dependencies by looking through the source code and then
+   verifying by compiling without the `-cp` argument. If a file requires `-cp` to compile, it has dependencies
+   on other classes in the exercise. To determine the "Line Count", you may use the `wc` command. 
    
    | File Name | Java Type? | FQN | Depends On | Line Count |
    |-----------|------------|-----|------------|------------|
