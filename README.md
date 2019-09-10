@@ -115,7 +115,7 @@ command depends on your present working directory), then please note that contex
    |-----------|------------|-----|------------|
    |-----------|------------|-----|------------|
    
-1. Based on the "Depends On" column in the previous step, list the files in the in an order of
+1. Based on the "Depends On" column in the previous step, list the files in order of
    increasing dependency, starting with those that are independent. 
 
 1. Refactor the code in the `cs1302.ce10` package based on your approved UML diagram from the
