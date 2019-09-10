@@ -11,13 +11,13 @@ It also revists how to commit and view changes to a local Git repository.
 * CSCI 1302 [Inheritance Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/inheritance/inheritance.md)
 * CSCI 1302 [UML Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/uml/uml.md)
 
-## Course-Specific Learning Outcomes -- FINISH UPDATING
+## Course-Specific Learning Outcomes
 
-* **LO3.b:** Create class, interface, method, and inline documentation that satisfies a 
-set of requirements.
+* **LO2.a:** Identify redundancy in a set of classes and interfaces, then refactor using inheritance and 
+polymorphism to emphasize code reuse.
 * **LO3.c:** Generate user-facing API documentation for a software solution.
-* **LO4.c:** (Partial) Design, create and use inheritance relationships in a software solution.
-* **LO4.d:** Utilize inheritance-based polymorphism in a software solution.
+* **LO4.c:** Design, create and use inheritance relationships in a software solution.
+
 
 ## Questions
 
@@ -61,20 +61,17 @@ command depends on your present working directory), then please note that contex
    |-----------|------------|-----|------------|------------|
    |-----------|------------|-----|------------|------------|
 
-1. In your notes, draw a complete, proper UML diagram for all of the code contained in the
-   starter code. **You might need to devote an entire page to this. We recommend using a pencil.** 
-   Specifically, each individual class diagram should contain:
-
-   * Class name;
-   * Variables;
-   * Constructors and methods;
-   * If needed, a solid generalization arrow (`extends`) to a parent class; and
-   * If needed, a dashed generalization arrow (`implements`) to an interface.
-
-   In a class diagram, do not list inherited members unless they are explicitly overriden.
-   Where applicable, be sure to include visibility modifiers (e.g., `+`, `#`, `~`, `-`) and
-   type / return type information. Also, remember that generalization arrows have a triangle
-   arrow head, which differentiates them from dependency and aggregration associations.
+1. There are six classes in the `cs1302.ce10` package. The complete UML diagram can be seen below.
+   Take a few minutes to look over the diagram.
+   
+   ![1302 Mock eLC UML](res/ce10-MockELC.png)
+   
+   Answer the following questions in your notes:
+   
+   * What do the arrows in the UML diagram represent?
+   * How many private methods and private instance variables exist across all classes?
+   * How many protected methods and private instance variables exist across all classes?
+   * Describe any inheritance relationships you see in the diagram.
    
 **CHECKPOINT**
 
@@ -93,11 +90,8 @@ command depends on your present working directory), then please note that contex
    * Introduce new interfaces for "can-do" relationships; and 
    * Push common variables and methods up the hierarchy when reasonable.
    
-   This is a tricky activity! While methods and variables that are identical may be easy targets
-   for refactoring, what about ones that are similar? They too can be refactored and pushed up
-   the hierarchy and combined into a single thing if they have the same meaning. You should make
-   every effort to utilize abstract methods and overrides effectively. If you have questions
-   about your design, then feel free to ask!
+   This is a tricky activity! You should make every effort to utilize abstract methods and overrides 
+   effectively. If you have questions about your design, then feel free to ask!
    
 1. For each class and interface in your group's UML diagram, provide a justification for why you
    made it that way. Your instructor or PLA will check your UML and point at random boxes, then
@@ -118,7 +112,7 @@ command depends on your present working directory), then please note that contex
 1. Based on the "Depends On" column in the previous step, list the files in order of
    increasing dependency, starting with those that are independent. 
 
-1. Refactor the code in the `cs1302.ce10` package based on your approved UML diagram from the
+1. Refactor the code in the `cs1302.ce10` package based on your **approved** UML diagram from the
    previous checkpoint. You should do this one `.java` file at a time, in the order you came
    up with in the previous step. For each file, you need to do the following:
    
@@ -134,7 +128,7 @@ command depends on your present working directory), then please note that contex
 
 1. Regenerate the API documentation website for all of the code in the `cs1302` package.
 
-1. Now, for each `.java` file under the `src` directory, fill out a table similar to 
+1. Now, for each `.java` file under the `src` directory, fill out a row in a table similar to 
    the following:
 
    | File Name | Line Count |
