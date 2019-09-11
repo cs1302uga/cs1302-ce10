@@ -120,7 +120,7 @@ public class Homework {
     } // getCourse
 
     /**
-     * Throws a NullPointerException if any values in the
+     * Throws a {@code NullPointerException} if any values in the
      * varargs parameter, {@code o} are {@code null}. The
      * method performs no actions if all values in {@code o}
      * are non-null.
