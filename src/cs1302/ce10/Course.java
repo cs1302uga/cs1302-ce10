@@ -123,5 +123,15 @@ public class Course {
         this.title = title;
     } // setTitle
     
+    /**
+     * Saves this {@code Course} to a database.
+     */
+    public void save() {
+        // please pretend 
+        // that there is
+        // suficciently fancy code
+        // written here
+    } // save
+    
 } // Course
 
