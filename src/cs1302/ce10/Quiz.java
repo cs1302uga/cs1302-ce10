@@ -144,4 +144,14 @@ public class Quiz {
         } // for
     } // checkNull
 
+    /**
+     * Saves this {@code Quiz} to a database.
+     */
+    public void save() {
+        // please pretend 
+        // that there is
+        // suficciently fancy code
+        // written here
+    } // save
+    
 } // Quiz
