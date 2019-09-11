@@ -77,23 +77,19 @@ command depends on your present working directory), then please note that contex
    ![1302 Mock eLC UML](res/ce10-MockELC.png)
    
 **CHECKPOINT**
-
-1. Generate the API documentation website for all of the code in the `cs1302` package
-   into the `doc` directory. You may need to create the `doc` directory if it does not already exist.
-   Host the documentation on Nike using `cs1302-ce10-doc` as the name for your symbolic link.
-   What is the URL of your website?
    
 1. **[TRICKY]** Code __refactoring__ is the process of restructuring existing computer code without changing 
    its external behavior. As you likely noticed in your UML diagram, there is a lot of redundancy
    among the classes in the starter code. Let's attempt to reduce that redundancy. In your notes, 
    draw a **new** UML diagram that reduces most of that redundancy. Here are some things you can
-   do:
+   do (we recommend considering these things in the order presented below):
    
    * Introduce new (parent) classes for "is-a" relationships;
-   * Introduce new interfaces for "can-do" relationships; and 
+   * Introduce new interfaces for "can-do" relationships; 
+   * Introduce new stand-alone utility classes when neither an "is-a" or "can-do" relationship makes sense; and
    * Push common variables and methods up the hierarchy when reasonable.
    
-   This is a tricky activity! You should make every effort to utilize abstract methods and overrides 
+   **This is a tricky activity!** You should make every effort to utilize abstract methods and overrides 
    effectively. If you have questions about your design, then feel free to ask!
    
 1. For each class and interface in your group's UML diagram, provide a justification for why you
