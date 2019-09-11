@@ -68,7 +68,7 @@ command depends on your present working directory), then please note that contex
    
    * What do the arrows in the UML diagram represent?
    * How many private methods and private instance variables exist across all classes?
-   * How many protected methods and private instance variables exist across all classes?
+   * How many protected methods and protected instance variables exist across all classes?
    * Describe any inheritance relationships you see in the diagram.
    
    ![1302 Mock eLC UML](res/ce10-MockELC.png)
