@@ -119,5 +119,15 @@ public class Professor {
         } // if
     } // checkId
     
+    /**
+     * Saves this {@code Professor} to a database.
+     */
+    public void save() {
+        // please pretend 
+        // that there is
+        // suficciently fancy code
+        // written here
+    } // save    
+    
 } // Professor
 
