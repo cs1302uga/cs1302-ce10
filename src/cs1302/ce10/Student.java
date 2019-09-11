@@ -131,5 +131,15 @@ public class Student {
         } // if
     } // checkGPA
 
+    /**
+     * Saves this {@code Student} to a database.
+     */
+    public void save() {
+        // please pretend 
+        // that there is
+        // suficciently fancy code
+        // written here
+    } // save
+    
 } // Student
 
