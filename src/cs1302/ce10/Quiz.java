@@ -125,7 +125,7 @@ public class Quiz {
     } // getCourse
 
     /**
-     * Throws a NullPointerException if any values in the
+     * Throws a {@code NullPointerException} if any values in the
      * varargs parameter, {@code o} are {@code null}. The
      * method performs no actions if all values in {@code o}
      * are non-null.
@@ -135,14 +135,14 @@ public class Quiz {
      * @throws NullPointerException if any element of parameter
      * {@code o} is null.
      */
-    private void checkNull(String method, Object ... o) {
+    private void nullCheck(String method, Object ... o) {
         for (Object obj: o) {
             if (o == null) {
                 throw new NullPointerException(method +
                                                ": Null Argument Provided");
             } // if
         } // for
-    } // checkNull
+    } // nullCheck
 
     /**
      * Saves this {@code Quiz} to a database.
