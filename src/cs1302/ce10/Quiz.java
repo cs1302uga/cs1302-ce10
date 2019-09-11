@@ -32,7 +32,7 @@ public class Quiz {
      */
     public Quiz(int points, boolean bonus, Course course,
                 int limit) {
-        checkNull("Quiz Constructor", course);
+        nullCheck("Quiz Constructor", course);
 
         if (points < 0) {
             throw new IllegalArgumentException("Quiz Constructor: " +
