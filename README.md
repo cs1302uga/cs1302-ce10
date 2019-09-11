@@ -64,12 +64,15 @@ command depends on your present working directory), then please note that contex
 1. There are six classes in the `cs1302.ce10` package. The complete UML diagram can be seen below.
    Take a few minutes to look over the diagram.
    
-   Answer the following questions in your notes:
+   **As you look at the diagram, please answer the following questions in your notes:**
    
    * What do the arrows in the UML diagram represent?
    * How many private methods and private instance variables exist across all classes?
+     **What do you look for to denote private?**
    * How many protected methods and protected instance variables exist across all classes?
-   * Describe any inheritance relationships you see in the diagram.
+   **What do you look for to denote protected?**
+   * Are there any explicit inheritance relationships illustrated in the diagram?
+   * Are there any inheritance relations between classes in the diagram and classes not in the diagram?
    
    ![1302 Mock eLC UML](res/ce10-MockELC.png)
    
