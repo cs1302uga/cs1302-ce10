@@ -139,4 +139,14 @@ public class Homework {
         } // for
     } // checkNull
 
+    /**
+     * Saves this {@code Homework} to a database.
+     */
+    public void save() {
+        // please pretend 
+        // that there is
+        // suficciently fancy code
+        // written here
+    } // save    
+    
 } // Homework
