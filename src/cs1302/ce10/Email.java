@@ -153,4 +153,15 @@ public class Email {
             } // if
         } // for
     } // checkAddress
+    
+    /**
+     * Saves this {@code Email} to a database.
+     */
+    public void save() {
+        // please pretend 
+        // that there is
+        // suficciently fancy code
+        // written here
+    } // save    
+    
 } // Email
