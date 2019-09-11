@@ -113,14 +113,13 @@ command depends on your present working directory), then please note that contex
 
 1. Refactor the code in the `cs1302.ce10` package based on your **approved** UML diagram from the
    previous checkpoint. You should do this one `.java` file at a time, in the order you came
-   up with in the previous step. For each file, you need to do the following:
+   up with in the previous step. **For each file, you need to do the following:**
    
    1. Edit or create the file based on your UML diagram.
    1. Attempt to compile. If you encounter any compililation errors:
-      1. Write the error down in your notes;
+      1. If it's note-worthy, write the error down in your notes;
       1. Fix the error in your code;
       1. Recompile; then
-      1. Note the fix in your notes.
       1. Repeat as needed.
    1. Tell Git to track changes made to the file, then commit the changes to your local copy of the 
       repository. Be sure to include a good log message.
