@@ -1,5 +1,7 @@
 # cs1302-ce10 Hierarchy Refactoring
 
+![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+
 > By failing to prepare, you are preparing to fail. 
 > **--Benjamin Franklin**
 
@@ -17,7 +19,6 @@ It also revists how to commit and view changes to a local Git repository.
 polymorphism to emphasize code reuse.
 * **LO3.c:** Generate user-facing API documentation for a software solution.
 * **LO4.c:** Design, create and use inheritance relationships in a software solution.
-
 
 ## Questions
 
