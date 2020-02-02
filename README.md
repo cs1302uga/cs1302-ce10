@@ -124,6 +124,7 @@ command depends on your present working directory), then please note that contex
       1. Fix the error in your code;
       1. Recompile; then
       1. Repeat as needed.
+   1. Make sure your code passes `checkstyle`.
    1. Tell Git to track changes made to the file, then commit the changes to your local copy of the 
       repository. Be sure to include a good log message.
 
