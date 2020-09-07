@@ -41,7 +41,8 @@ command depends on your present working directory), then please note that contex
 
 1. **[ALL GROUP MEMBERS]**
    If you did not setup your Git username and email on Odin when working on `cs1302-ce07`,
-   then please revist that exercise and follow the instructions presented there.
+   then please revist that exercise and follow the [instructions](https://github.com/cs1302uga/cs1302-ce07#checkpoint-1-steps---getting-started)
+   presented there.
 
 1. Change into the `cs1302-ce10` directory that was just created and look around. There should be
    multiple Java files contained within the directory structure. To see a listing of all of the 
@@ -102,9 +103,9 @@ command depends on your present working directory), then please note that contex
    effectively. If you have questions about your design, then feel free to ask!
    
 1. For each class and interface in your group's UML diagram, provide a justification for why you
-   made it that way. Your instructor or PLA will check your UML and point at random boxes, then
-   ask you, "why?" When you respond, you should answer verbally and show them your response in your
-   notes. 
+   made it that way. If working on this in groups in class, your instructor or PLA will check your 
+   UML and point at random boxes, then ask you, "why?" When you respond, you should answer verbally 
+   and show them your response in your notes. 
 
 <hr/>
 
