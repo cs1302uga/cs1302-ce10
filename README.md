@@ -223,6 +223,16 @@ command depends on your present working directory), then please note that contex
    
 **NOT A CHECKPOINT**
 
+## Additional Resources
+
+* **<a id="diagrams_net"></a>Diagrams.net UML Diagram** (requires Google account):
+  
+  1. Click [here](https://drive.google.com/file/d/1UZrPjkjvVt_J0jRB1T_ywF-FujuQoYER/view?usp=sharing) to view the diagram.
+  2. Once open in Google Drive, near the top click "Open With", then select "Diagrams.net" (exact text may vary slightly).
+  3. If prompted, authorize your account with Diagrams.net.
+  4. Once open in Diagrams.net, click the "File" menu, then select "Make a Copy" (exact text may vary slightly); authorize,
+     if asked, so that you can save changes.
+
 <hr/>
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
