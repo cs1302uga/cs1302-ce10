@@ -232,6 +232,7 @@ command depends on your present working directory), then please note that contex
   3. If prompted, authorize your account with Diagrams.net.
   4. Once open in Diagrams.net, click the "File" menu, then select "Make a Copy" (exact text may vary slightly); authorize,
      if asked, so that you can save changes.
+  5. You should now be able to edit the diagram.
 
 <hr/>
 
